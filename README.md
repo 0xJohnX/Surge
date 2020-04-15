@@ -5,7 +5,7 @@ Surge config&amp;module
 ### Install Module
 
 ```
-**@lhie1**
+** @lhie1 **
 
 https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Module/JD_DailyBonus.sgmodule
 
@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Module/Zhih
 
 https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Module/iQIYI_DailyBonus.sgmodule
 
-**Junlong**
+** Junlong **
 
 https://raw.githubusercontent.com/Jun-long/Surge/master/Module/GetCookie.sgmodule
 
