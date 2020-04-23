@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-10010_DailyBonus = type=cron,cronexp="5 0 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
+10010_DailyBonus = type=cron,cronexp="5 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
 
 [MITM]
 hostname = %APPEND% act.10010.com, m.client.10010.com
