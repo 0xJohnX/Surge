@@ -31,4 +31,6 @@ https://raw.githubusercontent.com/Jun-long/Surge/master/Module/Wps.sgmodule
 
 https://raw.githubusercontent.com/Jun-long/Surge/master/Module/Wps_DailyBonus.sgmodule
 
+https://raw.githubusercontent.com/Jun-long/Surge/master/Module/Termius.sgmodule
+
 ```
