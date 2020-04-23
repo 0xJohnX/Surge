@@ -27,4 +27,6 @@ https://raw.githubusercontent.com/Jun-long/Surge/master/Module/10010_DailyBonus.
 
 https://raw.githubusercontent.com/Jun-long/Surge/master/Module/Qidian.sgmodule
 
+https://raw.githubusercontent.com/Jun-long/Surge/master/Module/Wps.sgmodule
+
 ```
