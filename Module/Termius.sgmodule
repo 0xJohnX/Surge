@@ -1,0 +1,8 @@
+#!name=Termius Local Pro
+#!desc=Termius Pro
+
+[Script]
+Termius.js = type=http-request,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
+
+[MITM]
+hostname = api.termius.com
