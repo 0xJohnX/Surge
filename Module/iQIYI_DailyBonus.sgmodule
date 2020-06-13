@@ -1,0 +1,9 @@
+#!name=iQIYI Dailybonus
+#!desc=爱奇艺签到
+#!system=ios
+
+[Script]
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js
+
+[MITM]
+hostname = %APPEND% *.iqiyi.com
