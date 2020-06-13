@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-Wps_DailyBonus = type=cron,cronexp="6 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
+Wps_DailyBonus = type=cron,cronexp="0 7 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
 
 [MITM]
 hostname = %APPEND% zt.wps.cn
