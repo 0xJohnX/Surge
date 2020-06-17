@@ -1,0 +1,7 @@
+#!name=Edge Proxy
+#!desc=Edge work with Proxy
+
+[Rule]
+# > General
+PROCESS-NAME,Microsoft Edge,Auto - UrlTest
+PROCESS-NAME,Microsoft Edge Helper,Auto - UrlTest
