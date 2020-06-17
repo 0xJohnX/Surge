@@ -3,5 +3,5 @@
 
 [Rule]
 # > General
-PROCESS-NAME,Microsoft Edge,Auto - UrlTest
-PROCESS-NAME,Microsoft Edge Helper,Auto - UrlTest
+PROCESS-NAME,Microsoft Edge,Proxy
+PROCESS-NAME,Microsoft Edge Helper,Proxy
