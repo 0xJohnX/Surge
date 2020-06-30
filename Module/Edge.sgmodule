@@ -1,6 +1,0 @@
-#!name=Edge Proxy
-#!desc=Edge work with Proxy
-#!system=mac
-
-[Rule]
-PROCESS-NAME,/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge,Proxy
