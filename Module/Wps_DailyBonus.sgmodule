@@ -3,7 +3,8 @@
 #!system=ios
 
 [Script]
-Wps_DailyBonus = type=cron,cronexp="0 7 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
+http-request ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+cron "0 7 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
 
 [MITM]
 hostname = %APPEND% zt.wps.cn
