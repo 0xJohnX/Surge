@@ -3,7 +3,8 @@
 #!system=ios
 
 [Script]
-cron "0 7 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
+
+Tasks: WPS = type=cron,cronexp=0 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,wake-system=true
 
 [MITM]
 hostname = %APPEND% zt.wps.cn
