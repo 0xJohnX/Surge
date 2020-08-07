@@ -4,7 +4,7 @@
 
 [Script]
 
-Tasks: WPS = type=cron,cronexp="0 7 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,wake-system=true
+WPS_DailyBonus = type=cron,cronexp="0 7 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
 
 [MITM]
 hostname = %APPEND% zt.wps.cn
