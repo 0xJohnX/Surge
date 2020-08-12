@@ -1,8 +1,0 @@
-#!name=WPS
-#!desc=WPS 会员
-
-[Script]
-Wps.js = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,script-update-interval=0
-
-[MITM]
-hostname = account.wps.cn
