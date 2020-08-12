@@ -1,8 +1,0 @@
-#!name=TickTick
-#!desc=滴答清单 unlock
-
-[Script]
-TickTick.js = type=http-response,pattern=^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/DiDaQingDan.js,requires-body=1,max-size=0
-
-[MITM]
-hostname = dida365.com, ticktick.com
