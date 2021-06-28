@@ -1,0 +1,6 @@
+#!name=Junlong Surge 自定义
+#!desc=iOS Surge 自定义
+#!system=ios
+
+[General]
+hide-vpn-icon = true
