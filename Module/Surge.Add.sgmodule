@@ -4,3 +4,6 @@
 
 [General]
 hide-vpn-icon = true
+ipv6 = true
+dns-server = 119.29.29.29
+doh-server = https://doh.pub/dns-query
