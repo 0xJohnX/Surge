@@ -7,7 +7,3 @@ hide-vpn-icon = true
 ipv6 = true
 dns-server = 119.29.29.29, 223.5.5.5
 encrypted-dns-server = https://doh.pub/dns-query
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,AdBlock
-FINAL,Others,dns-failed
