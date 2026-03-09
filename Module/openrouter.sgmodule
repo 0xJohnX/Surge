@@ -4,6 +4,9 @@
 #!author=Jonson
 #!version=1.4
 
+# 定义策略组，从机场的 ✈️Final 组中筛选节点
+OpenRouter = fallback, include-other-group="✈️Final", policy-regex-filter=(?i)(🇯🇵|japan|\bJP\b|🇹🇼|taiwan|\bTW\b), url=http://www.gstatic.com, interval=300, timeout=5
+
 [Rule]
 DOMAIN-SUFFIX,openrouter.ai,OpenRouter
 DOMAIN-SUFFIX,anthropic.com,OpenRouter
