@@ -1,11 +1,8 @@
 #!name=OpenRouter
-#!desc=OpenRouter / Claude / GPT 流量走日本/台湾节点，fallback 自动切换
+#!desc=OpenRouter / Claude / GPT 流量走日本/台湾节点
 #!system=iOS,macOS
 #!author=Jonson
-#!version=1.2
-
-[Proxy Group]
-🤖 OpenRouter = fallback, include-other-group="✈️Final", policy-regex-filter=(?i)(🇯🇵|japan|\bJP\b|🇹🇼|taiwan|\bTW\b), url=http://www.gstatic.com/generate_204, interval=300, timeout=5, no-alert=1, icon-url=https://openrouter.ai/favicon.ico
+#!version=1.3
 
 [Rule]
 DOMAIN-SUFFIX,openrouter.ai,🤖 OpenRouter
