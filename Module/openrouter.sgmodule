@@ -1,8 +1,18 @@
 #!name=OpenRouter
-#!desc=OpenRouter 流量走日本/台湾节点，fallback 自动切换
+#!desc=OpenRouter / Claude / GPT 流量走日本/台湾节点，fallback 自动切换
 #!system=iOS,macOS
 #!author=Jonson
-#!version=1.1
+#!version=1.2
 
 [Proxy Group]
-OpenRouter = fallback, include-other-group="✈️Final", policy-regex-filter=(?i)(🇯🇵|japan|\bJP\b|🇹🇼|taiwan|\bTW\b), url=http://www.gstatic.com/generate_204, interval=300, timeout=5, no-alert=1, icon-url=https://openrouter.ai/favicon.ico
+🤖 OpenRouter = fallback, include-other-group="✈️Final", policy-regex-filter=(?i)(🇯🇵|japan|\bJP\b|🇹🇼|taiwan|\bTW\b), url=http://www.gstatic.com/generate_204, interval=300, timeout=5, no-alert=1, icon-url=https://openrouter.ai/favicon.ico
+
+[Rule]
+DOMAIN-SUFFIX,openrouter.ai,🤖 OpenRouter
+DOMAIN-SUFFIX,anthropic.com,🤖 OpenRouter
+DOMAIN-SUFFIX,claude.ai,🤖 OpenRouter
+DOMAIN-SUFFIX,openai.com,🤖 OpenRouter
+DOMAIN-SUFFIX,oaiusercontent.com,🤖 OpenRouter
+DOMAIN-SUFFIX,chatgpt.com,🤖 OpenRouter
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 OpenRouter
+DOMAIN-SUFFIX,aistudio.google.com,🤖 OpenRouter
