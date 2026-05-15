@@ -6,50 +6,50 @@
 # ============================================================
 # 一、PatchWall / 系统 UI 广告与推荐流
 # ============================================================
-DOMAIN-SUFFIX,patchwall.tv.mi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,ad.mi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,ad.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,ads.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,adx.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,new.api.ad.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,api.ad.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,api.ad.intl.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,test.ad.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
+AND,((DOMAIN-SUFFIX,patchwall.tv.mi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,ad.mi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,ad.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,ads.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,adx.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,new.api.ad.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,api.ad.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,api.ad.intl.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,test.ad.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
 
 # ============================================================
 # 二、MIUI 遥测 / 数据上报 / 用户行为统计
 # ============================================================
-DOMAIN-SUFFIX,tracking.miui.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,tracking.intl.miui.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,mistat.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,mistat.intl.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,sec.miui.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,adv.sec.miui.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,sec.intl.miui.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
+AND,((DOMAIN-SUFFIX,tracking.miui.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,tracking.intl.miui.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,data.mistat.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,mistat.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,mistat.intl.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,sec.miui.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,adv.sec.miui.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,sec.intl.miui.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
 
 # ============================================================
 # 三、电视/显示器固件专用日志与运营接口
 # ============================================================
-DOMAIN-SUFFIX,log.tv.xiaomi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,stat.tv.mi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,uxip.tv.mi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,ad.tv.mi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,api.ad.tv.mi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
+AND,((DOMAIN-SUFFIX,log.tv.xiaomi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,stat.tv.mi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,uxip.tv.mi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,ad.tv.mi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,api.ad.tv.mi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
 # 注意：upgrade.tv.mi.com 是 OTA 接口，默认不拦截
 
 # ============================================================
 # 四、第三方视频 SDK 携带的广告（爱奇艺/银河奇异果/芒果等）
 # ============================================================
-DOMAIN-SUFFIX,cupid.ptqy.gitv.tv,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,msg.71.am,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,iface2.iqiyi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,afp.bestv.com.cn,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
-DOMAIN-SUFFIX,mp.mgtv.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
+AND,((DOMAIN-SUFFIX,cupid.ptqy.gitv.tv),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,msg.71.am),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,iface2.iqiyi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,afp.bestv.com.cn),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
+AND,((DOMAIN-SUFFIX,mp.mgtv.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
 
 # ============================================================
 # 五、消除该设备对 miwifi.com 的无效重试
@@ -59,7 +59,7 @@ DOMAIN-SUFFIX,mp.mgtv.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
 # 下该域名公网 443 端口长期无响应，会产生周期性 10s 超时日志。
 # 此处直接 REJECT 让连接立即结束，不影响显示器功能。
 # ============================================================
-DOMAIN-SUFFIX,miwifi.com,REJECT-NO-DROP,DEVICE-NAME=XiaomiGProU27
+AND,((DOMAIN-SUFFIX,miwifi.com),(DEVICE-NAME,XiaomiGProU27)),REJECT-NO-DROP
 
 # ============================================================
 # 六、保留不拦的域名（仅作说明，无需写入规则）
