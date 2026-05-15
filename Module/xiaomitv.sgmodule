@@ -1,8 +1,6 @@
 #!name=Xiaomi G Pro 27U 净化
 #!desc=仅对设备「XiaomiGProU27」生效，拦截广告与遥测，不影响其他米家设备。基于 Surge 的 DEVICE-NAME 匹配，无需固定 IP。
-#!author=Jonson @ Acoemeta
-#!category=设备净化
-#!system=ios,mac
+#!author=Jonson
 
 [Rule]
 # ============================================================
